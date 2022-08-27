@@ -3,7 +3,7 @@
 --------------------------------------------------------------*/
 body {
 	font-family: "Open Sans", sans-serif;
-	background: #f6f9ff;
+	// background: #f6f9ff;
 	color: #444444;
 }
 a {
@@ -62,7 +62,49 @@ h6 {
 	border-color: #d3d3d4;
 }
 
+@media (min-width: 1200px) {
+
+	#main{
+	  margin-left: 300px;
+	}
+  }
+  
+  @media (max-width: 1199px) {
+	.toggle-sidebar .sidebar {
+	  left: 0;
+	}
+  }
+  
+  @media (min-width: 1200px) {
+  
+	.toggle-sidebar #main,
+	.toggle-sidebar {
+	  margin-left: 0;
+	}
+  
+	.toggle-sidebar .sidebar {
+	  left: -300px;
+	}
+  }
+
+  /*--------------------------------------------------------------
+# Main
+--------------------------------------------------------------*/
+#main {
+	margin-top: 80px;
+	padding: 20px 30px;
+	transition: all 0.3s;
+  }
+  
+  @media (max-width: 1199px) {
+	#main {
+	  padding: 20px;
+	}
+  }
+  
 
 @import "sidebar.scss";
 @import "header.scss";
 @import "footer.scss";
+@import "content.scss";
+@import "card.scss";

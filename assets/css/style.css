@@ -3,7 +3,6 @@
 --------------------------------------------------------------*/
 body {
   font-family: "Open Sans", sans-serif;
-  background: #f6f9ff;
   color: #444444;
 }
 
@@ -76,6 +75,40 @@ h6 {
   border-color: #d3d3d4;
 }
 
+@media (min-width: 1200px) {
+  #main {
+    margin-left: 300px;
+  }
+}
+@media (max-width: 1199px) {
+  .toggle-sidebar .sidebar {
+    left: 0;
+  }
+}
+@media (min-width: 1200px) {
+  .toggle-sidebar #main,
+.toggle-sidebar {
+    margin-left: 0;
+  }
+
+  .toggle-sidebar .sidebar {
+    left: -300px;
+  }
+}
+/*--------------------------------------------------------------
+# Main
+--------------------------------------------------------------*/
+#main {
+  margin-top: 80px;
+  padding: 20px 30px;
+  transition: all 0.3s;
+}
+
+@media (max-width: 1199px) {
+  #main {
+    padding: 20px;
+  }
+}
 /*--------------------------------------------------------------
 # Sidebar
 --------------------------------------------------------------*/
@@ -498,12 +531,12 @@ a.nav-link {
 --------------------------------------------------------------*/
 .footer {
   position: absolute;
-  bottom: 0;
   width: 100%;
   padding: 20px 0;
   font-size: 14px;
   transition: all 0.3s;
   z-index: 20;
+  box-shadow: 0px 0 0px rgba(1, 41, 112, 0.1);
 }
 
 .footer__top {
@@ -537,6 +570,74 @@ a.nav-link {
 }
 .footer__bottom .footer-label {
   font-weight: 500;
+}
+
+.statistical {
+  background-color: black;
+}
+
+.search-bar input {
+  flex-grow: 5;
+  border: none;
+  border-radius: 30px;
+  padding-left: 10px;
+}
+.search-bar .button_create_link {
+  flex-grow: 1;
+  border: 1px solid #4155c5;
+  background: #4155c5;
+  color: white;
+  border-radius: 30px;
+  margin: 5px;
+  width: 200px;
+  padding: 5px;
+}
+
+.filter-bar button {
+  height: 60px;
+  padding: 15px 15px 15px 15px;
+}
+
+/* Card */
+.card {
+  margin-bottom: 10px;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0px 0 30px rgba(1, 41, 112, 0.1);
+}
+
+.card-header {
+  border-color: #ebeef4;
+  background-color: #fff;
+  color: #798eb3;
+  padding: 10px;
+}
+
+.card-footer {
+  border-color: #ebeef4;
+  background-color: #fff;
+  color: #798eb3;
+  padding: 10px;
+}
+
+.card-title {
+  padding: 10px 0 5px 0;
+  font-size: 14px;
+  font-weight: 500;
+  color: #012970;
+}
+.card-title span {
+  color: #899bbd;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.card-body {
+  padding: 0 10px 10px 10px;
+}
+
+.card-img-overlay {
+  background-color: rgba(255, 255, 255, 0.6);
 }
 
 /*# sourceMappingURL=style.css.map */
