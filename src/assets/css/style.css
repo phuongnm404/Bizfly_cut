@@ -1,11 +1,7 @@
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
-body {
-  font-family: "Open Sans", sans-serif;
-  color: #444444;
-}
-
+@import url("https://fonts.googleapis.com/css2?family=Sarabun:wght@400;700&display=swap");
 a {
   color: #4154f1;
   text-decoration: none;
@@ -13,30 +9,6 @@ a {
 a:hover {
   color: #717ff5;
   text-decoration: none;
-}
-
-h1 {
-  font-family: "Nunito", sans-serif;
-}
-
-h2 {
-  font-family: "Nunito", sans-serif;
-}
-
-h3 {
-  font-family: "Nunito", sans-serif;
-}
-
-h4 {
-  font-family: "Nunito", sans-serif;
-}
-
-h5 {
-  font-family: "Nunito", sans-serif;
-}
-
-h6 {
-  font-family: "Nunito", sans-serif;
 }
 
 /* Light Backgrounds overide bootstrap */
@@ -109,6 +81,14 @@ h6 {
     padding: 20px;
   }
 }
+p {
+  font-family: "Sarabun", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+}
+
 /*--------------------------------------------------------------
 # Sidebar
 --------------------------------------------------------------*/
@@ -536,7 +516,8 @@ a.nav-link {
   font-size: 14px;
   transition: all 0.3s;
   z-index: 20;
-  box-shadow: 0px 0 0px rgba(1, 41, 112, 0.1);
+  box-shadow: 0px 0px 20px rgba(1, 41, 112, 0.1);
+  background-color: #fff;
 }
 
 .footer__top {
@@ -572,17 +553,57 @@ a.nav-link {
   font-weight: 500;
 }
 
-.statistical {
-  background-color: black;
+.chart {
+  margin-bottom: 15px;
 }
 
-.search-bar input {
+.chart .card-chart {
+  width: 100%;
+  border-radius: 10px;
+  box-shadow: 0px 0px 20px rgba(1, 41, 112, 0.1);
+  background-color: #fff;
+  padding: 10px;
+}
+
+.filter-tag .btn-filter {
+  width: fit-content;
+  box-shadow: 0px 0px 20px rgba(1, 41, 112, 0.1);
+  background-color: #fff;
+  margin-right: 15px;
+  height: 50px;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.btn-filter1 {
+  width: 250px;
+  box-shadow: 0px 0px 20px rgba(1, 41, 112, 0.1);
+  background-color: #fff;
+  margin-right: 15px;
+  height: 50px;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.search-bar {
+  margin-bottom: 15px;
+}
+
+.search-bar .card-search {
+  width: 100%;
+  box-shadow: 0px 0px 20px rgba(1, 41, 112, 0.1);
+  background-color: #fff;
+  padding: 10px;
+  border-radius: 10px;
+  display: flex;
+}
+.search-bar .card-search input {
   flex-grow: 5;
   border: none;
   border-radius: 30px;
   padding-left: 10px;
 }
-.search-bar .button_create_link {
+.search-bar .card-search .button_create_link {
   flex-grow: 1;
   border: 1px solid #4155c5;
   background: #4155c5;
@@ -593,9 +614,131 @@ a.nav-link {
   padding: 5px;
 }
 
-.filter-bar button {
-  height: 60px;
-  padding: 15px 15px 15px 15px;
+.widget-content {
+  padding: 0.5rem;
+  flex-direction: row;
+  align-items: center;
+}
+
+.widget-content .widget-content-outer {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+}
+
+.widget-content .widget-content-wrapper {
+  display: flex;
+  flex: 1;
+  position: relative;
+  align-items: center;
+}
+
+.top-click {
+  box-shadow: 0px 0px 20px rgba(1, 41, 112, 0.1);
+  background-color: #fff;
+  padding: 10px;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+
+.top-click .widget-content-left {
+  margin-left: 1.5rem;
+  display: flex;
+}
+
+.top-click .widget-content-right {
+  width: 70%;
+  margin-left: 1.5rem;
+}
+.top-click .widget-content-right .widget-heading {
+  font-family: "Sarabun", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+  align-items: center;
+}
+.top-click .widget-content-right .widget-numbers {
+  font-family: "Sarabun", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 29px;
+}
+.top-click .widget-content-right .widget-subheading {
+  font-family: "Sarabun", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 16px;
+}
+
+.input-date {
+  width: 70%;
+  border: none;
+  border-radius: 5px;
+  font-family: "Sarabun", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+}
+
+.widget-content-left .logo-time {
+  margin-left: 10px;
+  margin-right: 5px;
+}
+
+.filter-tag {
+  margin-bottom: 15px;
+  font-family: "Sarabun", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+}
+.filter-tag button {
+  font-family: "Sarabun", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.table-data {
+  box-shadow: 0px 0px 20px rgba(1, 41, 112, 0.1);
+  background-color: #fff;
+  padding: 10px;
+  border-radius: 10px;
+  font-size: 14px;
+  font-family: "Sarabun", sans-serif;
+  line-height: 16px;
+  font-weight: 400;
+}
+.table-data thead th {
+  text-transform: uppercase;
+  color: #acacac;
+}
+.table-data tbody .o_link p {
+  max-width: 180px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  font-weight: bold;
+}
+.table-data tbody .o_link-text a {
+  color: black;
+}
+.table-data tbody .s_link-tag .badge {
+  margin-right: 3px;
+  margin-bottom: 5px;
+}
+.table-data tbody .action_data {
+  display: flex;
+}
+.table-data tbody .action_data button {
+  width: fit-content;
+  height: fit-content;
+  font-size: 13px;
+  font-family: "Sarabun", sans-serif;
+  margin-right: 5px;
+  margin-bottom: 20px;
 }
 
 /* Card */
@@ -621,10 +764,11 @@ a.nav-link {
 }
 
 .card-title {
-  padding: 10px 0 5px 0;
+  padding: 10px;
   font-size: 14px;
   font-weight: 500;
   color: #012970;
+  margin-left: 20px;
 }
 .card-title span {
   color: #899bbd;
