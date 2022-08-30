@@ -91,6 +91,7 @@
     font-size: 14px;
     line-height: 18px;
     align-items: center;
+    cursor: pointer;
   }
   .widget-numbers {
     font-family: $sarabun;
@@ -143,6 +144,11 @@
   font-family: $sarabun;
   line-height: 16px;
   font-weight: 400;
+  display: block;
+  overflow: auto;
+  white-space: nowrap;
+  height: 500px;
+  width: 100%;
   thead {
     th {
       text-transform: uppercase;
@@ -183,5 +189,10 @@
         margin-bottom: 20px;
       }
     }
+  }
+}
+.donut-chart {
+  .card {
+    // margin: 0px 80px 10px 100px;
   }
 }

@@ -657,6 +657,7 @@ a.nav-link {
   font-size: 14px;
   line-height: 18px;
   align-items: center;
+  cursor: pointer;
 }
 .top-click .widget-content-right .widget-numbers {
   font-family: "Sarabun", sans-serif;
@@ -710,6 +711,11 @@ a.nav-link {
   font-family: "Sarabun", sans-serif;
   line-height: 16px;
   font-weight: 400;
+  display: block;
+  overflow: auto;
+  white-space: nowrap;
+  height: 500px;
+  width: 100%;
 }
 .table-data thead th {
   text-transform: uppercase;
