@@ -50,7 +50,6 @@
     border-radius: 30px;
     margin: 5px;
     width: 200px;
-    padding: 5px;
   }
 }
 .widget-content {
@@ -180,7 +179,7 @@
     }
     .action_data {
       display: flex;
-      button {
+      .btn-outline-primary {
         width: fit-content;
         height: fit-content;
         font-size: 13px;
@@ -194,5 +193,95 @@
 .donut-chart {
   .card {
     // margin: 0px 80px 10px 100px;
+  }
+}
+.modal-footer {
+  justify-content: center !important;
+  .btn-create-link {
+    height: 40px;
+    border: 1px solid #4155c5;
+    background: #4155c5;
+    color: white;
+    border-radius: 30px;
+    margin: 5px;
+    width: 200px;
+    align-items: center;
+
+    color: #ffffff;
+  }
+}
+.modal-title {
+  margin-left: 160px;
+  font-weight: bold;
+}
+.modal-body {
+  .input-short-link {
+    display: block;
+    width: 95%;
+    padding: 0.375rem 0.75rem;
+    margin-bottom: 10px;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #f8f8f8;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    border-radius: 0.375rem;
+    transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+  }
+  .input-or-link,
+  .input-link-android,
+  .input-link-ios {
+    margin-bottom: 10px;
+    margin-top: 5px;
+    height: 100px;
+    display: block;
+    width: 95%;
+    padding: 0.375rem 0.75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #f8f8f8;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    border-radius: 0.375rem;
+    transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+  }
+}
+.form-row {
+  display: flex;
+  flex-direction: column;
+  margin-left: 12px;
+
+  h6 {
+    font-weight: 700;
+  }
+}
+.form-row1 {
+  display: flex;
+  flex-direction: column;
+  margin-left: 12px;
+  text-align: center;
+  h6 {
+    font-weight: 700;
+  }
+}
+.qr-code {
+  width: 100%;
+  .text-qrcode {
+    height: 100px;
+    span {
+      text-align: center;
+      overflow-wrap: break-word;
+      display: block;
+    }
   }
 }

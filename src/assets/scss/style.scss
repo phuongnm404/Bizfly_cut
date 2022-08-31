@@ -2,11 +2,18 @@
 # General
 --------------------------------------------------------------*/
 // Google Fonts
-@import url('https://fonts.googleapis.com/css2?family=Sarabun:wght@400;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Sarabun:wght@400;700&display=swap");
 
 // Font Variables
-$sarabun: 'Sarabun', sans-serif;
+$sarabun: "Sarabun", sans-serif;
 
+:root {
+  --bs-border-color: #f8f8f8 !important;
+  --bs-btn-hover-bg: #4155c5;
+  --bs-btn-hover-color: #fff;
+
+  --bs-modal-bg: #f8f8f8 !important;
+}
 a {
   color: #4154f1;
   text-decoration: none;
@@ -81,7 +88,7 @@ a {
   #main {
     padding: 20px;
   }
-} 
+}
 p {
   font-family: $sarabun;
   font-style: normal;
