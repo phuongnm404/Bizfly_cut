@@ -55,88 +55,88 @@
                 </defs>
             </svg>
         </a>
-    </div>
+    </div> 
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
         aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
     </button>
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <div class="menu-left ms-5">
-                <ul class="navbar-nav me-auto mb-2 mb-lg-0 ml-2">
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Link cá nhân</a>
-                    </li>
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0 ml-2">
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Link cá nhân</a>
+                </li>
 
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
-                            aria-expanded="false">
-                            Chiến dịch
-                        </a>
-                        <ul class="dropdown-menu">
-                            <li>
-                                <div class="input-group ms-3 ">
-                                    <div class="form-outline d-flex">
-                                        <i class="fas fa-search"></i>
-                                        <input type="text" name="" id="searchvalue_chiendich" placeholder="Tìm nhóm"
-                                            onkeyup="filter_chiendich()">
-                                    </div>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                        aria-expanded="false">
+                        Chiến dịch
+                    </a>
+                    <ul class="dropdown-menu">
+                        <li>
+                            <div class="input-group ms-3 ">
+                                <div class="form-outline d-flex">
+                                    <i class="fas fa-search"></i>
+                                    <input type="text" name="" id="searchvalue_chiendich" placeholder="Tìm nhóm"
+                                        onkeyup="filter_chiendich()">
                                 </div>
-                            </li>
-                            <li>
-                                <ul class="data-search">
-                                    <li class="list_chiendich"><a class="dropdown-item" href="#">Chính sách đẩy bán quý
-                                            1</a></li>
-                                    <li class="list_chiendich"><a class="dropdown-item" href="#">Chính sách đẩy bán quý
-                                            2</a></li>
-                                    <li class="list_chiendich"><a class="dropdown-item" href="#">Chính sách đẩy bán quý
-                                            3</a></li>
-                                    <li class="list_chiendich"><a class="dropdown-item" href="#">Chính sách đẩy bán quý
-                                            4</a></li>
+                            </div>
+                        </li>
+                        <li>
+                            <ul class="data-search">
+                                <li class="list_chiendich"><a class="dropdown-item" href="#">Chính sách đẩy bán quý
+                                        1</a></li>
+                                <li class="list_chiendich"><a class="dropdown-item" href="#">Chính sách đẩy bán quý
+                                        2</a></li>
+                                <li class="list_chiendich"><a class="dropdown-item" href="#">Chính sách đẩy bán quý
+                                        3</a></li>
+                                <li class="list_chiendich"><a class="dropdown-item" href="#">Chính sách đẩy bán quý
+                                        4</a></li>
 
-                                </ul>
-                            </li>
+                            </ul>
+                        </li>
 
-                        </ul>
-                    </li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
-                            aria-expanded="false">
-                            Nhóm
-                        </a>
-                        <ul class="dropdown-menu">
-                            <li>
-                                <div class="input-group ms-3 ">
-                                    <div class="form-outline d-flex">
-                                        <i class="fas fa-search"></i>
-                                        <input type="text" name="" id="searchvalue_nhom" placeholder="Tìm nhóm"
-                                            onkeyup="filter_nhom()">
-                                    </div>
+                    </ul>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                        aria-expanded="false">
+                        Nhóm
+                    </a>
+                    <ul class="dropdown-menu">
+                        <li>
+                            <div class="input-group ms-3 ">
+                                <div class="form-outline d-flex">
+                                    <i class="fas fa-search"></i>
+                                    <input type="text" name="" id="searchvalue_nhom" placeholder="Tìm nhóm"
+                                        onkeyup="filter_nhom()">
                                 </div>
-                            </li>
-                            <li>
-                                <ul class="data-search">
-                                    <li class="list_nhom"><a class="dropdown-item" href="#">Nhóm 1</a></li>
-                                    <li class="list_nhom"><a class="dropdown-item" href="#">Nhóm 2</a></li>
-                                    <li class="list_nhom"><a class="dropdown-item" href="#">Nhóm 3</a></li>
-                                    <li class="list_nhom"><a class="dropdown-item" href="#">Nhóm 4</a></li>
-                                    <li class="list_nhom"><a class="dropdown-item" href="#">Nhóm 5</a></li>
-                                    <li class="list_nhom"><a class="dropdown-item" href="#">Nhóm 6</a></li>
-                                    <li class="list_nhom"><a class="dropdown-item" href="#">Nhóm 7</a></li>
-                                    <li class="list_nhom"><a class="dropdown-item" href="#">Nhóm 8</a></li>
-                                    <li class="list_nhom"><a class="dropdown-item" href="#">Nhóm 9</a></li>
-                                    <li class="list_nhom"><a class="dropdown-item" href="#">Nhóm 10</a></li>
-                                    <li class="list_nhom"><a class="dropdown-item" href="#">Nhóm 11</a></li>
-                                    <li class="list_nhom"><a class="dropdown-item" href="#">Nhóm 12</a></li>
-                                    <li class="list_nhom"><a class="dropdown-item" href="#">Nhóm 13</a></li>
-                                    <li class="list_nhom"><a class="dropdown-item" href="#">Nhóm 14</a></li>
-                                </ul>
-                            </li>
+                            </div>
+                        </li>
+                        <li>
+                            <ul class="data-search">
+                                <li class="list_nhom"><a class="dropdown-item" href="#">Nhóm 1</a></li>
+                                <li class="list_nhom"><a class="dropdown-item" href="#">Nhóm 2</a></li>
+                                <li class="list_nhom"><a class="dropdown-item" href="#">Nhóm 3</a></li>
+                                <li class="list_nhom"><a class="dropdown-item" href="#">Nhóm 4</a></li>
+                                <li class="list_nhom"><a class="dropdown-item" href="#">Nhóm 5</a></li>
+                                <li class="list_nhom"><a class="dropdown-item" href="#">Nhóm 6</a></li>
+                                <li class="list_nhom"><a class="dropdown-item" href="#">Nhóm 7</a></li>
+                                <li class="list_nhom"><a class="dropdown-item" href="#">Nhóm 8</a></li>
+                                <li class="list_nhom"><a class="dropdown-item" href="#">Nhóm 9</a></li>
+                                <li class="list_nhom"><a class="dropdown-item" href="#">Nhóm 10</a></li>
+                                <li class="list_nhom"><a class="dropdown-item" href="#">Nhóm 11</a></li>
+                                <li class="list_nhom"><a class="dropdown-item" href="#">Nhóm 12</a></li>
+                                <li class="list_nhom"><a class="dropdown-item" href="#">Nhóm 13</a></li>
+                                <li class="list_nhom"><a class="dropdown-item" href="#">Nhóm 14</a></li>
+                            </ul>
+                        </li>
 
-                        </ul>
-                    </li>
-                </ul>
+                    </ul>
+                </li>
+            </ul>
 
-        
+
         </div>
         <div class="menu-right ms-auto me-5">
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
@@ -148,7 +148,7 @@
                 </li>
                 <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
-                    aria-expanded="false"> <i class="fas fa-circle-user"></i> &ensp;Ngô Thị Thùy Linh</a>
+                        aria-expanded="false"> <i class="fas fa-circle-user"></i> &ensp;Ngô Thị Thùy Linh</a>
                     <ul class="dropdown-menu">
                         <li><a class="dropdown-item" href="#">Action</a></li>
                         <li><a class="dropdown-item" href="#">Another action</a></li>
@@ -158,4 +158,5 @@
             </ul>
         </div>
     </div>
+    <i class='bx bx-menu' ></i>
 </nav>
